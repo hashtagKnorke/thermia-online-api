@@ -140,7 +140,7 @@ print(
     "Historical data for outdoor temperature during past 24h: "
     + str(
         heat_pump.get_historical_data_for_register(
-            "REG_OUTDOOR_TEMPERATURE",
+            "REG_OPER_DATA_OUTDOOR_TEMP_MA_SA",
             datetime.now() - timedelta(days=1),
             datetime.now(),
         )

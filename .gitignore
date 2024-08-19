@@ -15,3 +15,5 @@ debug.txt
 # Visual Studio related files
 /.vs/*
 credentials.py
+node/credential.js
+node/node_modules
