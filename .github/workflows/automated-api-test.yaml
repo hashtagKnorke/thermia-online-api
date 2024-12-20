@@ -1,9 +1,9 @@
 name: Automated API test that runs against Thermia API and checks for breaking changes
 
 on:
-  schedule:
-    # run every six hours
-    - cron: '0 */6 * * *'
+#  schedule:
+#    # run every six hours
+#    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
